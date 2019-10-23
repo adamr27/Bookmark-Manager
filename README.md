@@ -1,12 +1,23 @@
-Connect to psql
-Create the database using the psql command CREATE DATABASE bookmark_manager;
-Connect to the database using the pqsl command \c bookmark_manager;
-Run the query we have saved in the file 01_create_bookmarks_table.sql
 
-source "https://rubygems.org"
+For bookmark_manager
+Step 1: Run the command psql
+Step 2: Create database using the psql command: CREATE DATABASE bookmark_manager;
+Step 3: Use \c bookmark_manager; command to connect to database
+Step 4: Run the query
 
-gem 'pg'
-gem 'sinatra'
+For bookmark_manager_test
+Step 1: Run the command psql
+Step 2: Create database using the psql command: CREATE DATABASE bookmark_manager_test;
+Step 3: Use \c bookmark_manager_test; command to connect to database
+Step 4: Run the query
 
-gem 'capybara', group: :test
-gem 'rspec', group: :test
+
+Completed stories
+
+
+
+User stories
+
+as a reader,
+so that i can see all my bookmarks
+i would like to be shown a list of my bookmarks
